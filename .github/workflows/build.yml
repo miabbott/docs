@@ -2,6 +2,7 @@ name: Build and Deploy
 
 env:
   CI: true
+  PYTHON_VERSION: 3.7 
 
 on: [push, pull_request]
 
